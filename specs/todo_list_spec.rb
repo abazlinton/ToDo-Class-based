@@ -23,7 +23,7 @@ class TestTodoList < MiniTest::Test
 		assert_equal(@todo_list_item, items_array[0])
 	end
 
-	
+	 
 
 	def test_that_can_handle_items__one
 		@todo_list = TodoList.new(@todo_list_item)
